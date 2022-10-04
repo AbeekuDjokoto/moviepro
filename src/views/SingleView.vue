@@ -72,7 +72,6 @@ export default {
     font-weight: 400;
     font-size: 16px;
     line-height: 21px;
-    /* identical to box height */
     color: #FFFFFF;
 }
 
