@@ -52,7 +52,7 @@ export default {
     };
   },
   created() {
-    fetch("http://www.omdbapi.com/?apikey=92f8901f&i=" + this.id)
+    fetch("https://www.omdbapi.com/?apikey=92f8901f&i=" + this.id)
       .then((response) => response.json())
       .then((response) => {
         this.fetchedResult = response;

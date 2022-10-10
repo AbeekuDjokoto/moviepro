@@ -115,7 +115,7 @@ export default {
       this.spinner = true;
       await axios
         .get(
-          `http://www.omdbapi.com/?apikey=92f8901f&s=${this.searchResult}&page=${pageNumber}`
+          `https://www.omdbapi.com/?apikey=92f8901f&s=${this.searchResult}&page=${pageNumber}`
         )
         .then((response) => {
           this.totalResults = Number(response.data.totalResults);
