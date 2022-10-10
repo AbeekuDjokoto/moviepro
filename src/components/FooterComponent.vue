@@ -12,7 +12,7 @@ export default {
 
 <style scoped>
 footer{
-    position: absolute;
+    position: fixed;
     bottom: 0;
 }
 

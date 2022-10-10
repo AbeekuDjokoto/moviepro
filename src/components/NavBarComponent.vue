@@ -16,6 +16,9 @@ export default {
         background-color: var(--background-nav-color);
         text-align: center;
         margin-bottom: 72px;
+        position: sticky;
+        top: 0;
+        z-index: 2;
     }
 
 </style>

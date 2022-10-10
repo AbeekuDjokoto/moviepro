@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import SearchResult from '../views/SearchResult.vue'
+import Page404 from '../views/404View.vue'
 import SingleView from '../views/SingleView.vue'
 
 const routes = [
@@ -10,9 +10,9 @@ const routes = [
     component: HomeView
   },
   {
-    path: '/searchResult',
-    name: 'searchResult',
-    component: SearchResult
+    path: '/:catchAll(.*)',
+    name: 'Page404',
+    component: Page404
   },
   {
     path: '/singleView/:id',
@@ -27,3 +27,4 @@ const router = createRouter({
 })
 
 export default router
+

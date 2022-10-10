@@ -43,7 +43,7 @@ body{
 
 #app {
   font-family: var(--primary-font); 
-  overflow-x: hidden;
+
 }
 
 
